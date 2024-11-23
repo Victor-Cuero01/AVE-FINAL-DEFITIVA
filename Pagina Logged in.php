@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centro de desarrollo</title>
     <link rel="stylesheet" href="./css/estilosLoggedin.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 
 </head>
 <body>
