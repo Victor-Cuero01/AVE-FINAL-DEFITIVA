@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   font-family: 'Poppins', sans-serif;
+   overflow: hidden; /* Evita scroll continuo */
+}
+
+header {
+   position: fixed;
+   width: 100%;
+   z-index: 10;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 30px;
+   background: rgba(255, 255, 255, 0.8);
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu li {
+   display: inline-block;
+   margin: 0 15px;
+}
+
+.menu li a {
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+   transition: 0.3s;
+}
+
+.menu li a:hover {
+   color: #555;
+}
+
+/* Configuración del scroll snapping */
+.snap-container {
+   scroll-snap-type: y mandatory;
+   overflow-y: scroll;
+   height: 100vh;
+}
+
+section {
+   scroll-snap-align: start;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   text-align: center;
+   background-color: #fb6545;
+}
+
+section:nth-child(even) {
+   background-color: #fbbe45;
+}
+
+/* Estilos específicos */
+h1 {
+   font-size: 2.5rem;
+   margin-bottom: 20px;
+   color: #ddd;
+}
+
+
+
+p {
+   font-size: 1.2rem;
+   margin-bottom: 20px;
+   color: #ddd;
+}
+
+form {
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+form input, form textarea, form button {
+   margin: 10px 0;
+   padding: 10px;
+   width: 80%;
+   max-width: 300px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+form textarea {
+   resize: none;
+}
+
+form button {
+   background: #000;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+form button:hover {
+   background: #555;
+}
+
+#comentarios p, 
+#comentarios h1,
+#sobre p,
+#sobre h1 { 
+   color: #000;
+}
+
+#sobre p {
+   max-width: 800px; /* Limita la anchura máxima del texto */
+   margin: 0 auto 20px; /* Centra el texto horizontalmente */
+   text-align: center; /* Asegura que el texto esté alineado al centro */
+   line-height: 1.4; /* Mejora la legibilidad con un espacio entre líneas */
+}
+
+/* Estilo para la sección de servicios */
+#servicios {
+   padding: 50px 20px;
+   text-align: center;
+ }
+
+/* Contenedor de servicios */
+.services-container {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+/* Cada servicio */
+.service {
+   background: #fb8168;
+   border-radius: 10px;
+   padding: 20px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   width: 300px;
+   text-align: center;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Iconos dentro de los servicios */
+.service img {
+   width: 50px;
+   height: 50px;
+   margin-bottom: 15px;
+}
+
+/* Título del servicio */
+.service h2 {
+   font-size: 1.5rem;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+/* Descripción del servicio */
+.service p {
+   font-size: 1rem;
+   color: #fff;
+}
+
