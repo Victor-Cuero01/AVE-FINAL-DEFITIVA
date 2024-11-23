@@ -33,7 +33,7 @@
 
             <section id="servicios">
                 <h1>¿Qué ofrecemos?</h1>
-                <p>Descubre nuestros servicios diseñados para tu bienestar y crecimiento personal.</p>
+                <p>Descubre nuestras oportunidades para tu bienestar y crecimiento personal.</p>
                 <div class="services-container">
 
                     <div class="service">
@@ -57,7 +57,7 @@
                     <div class="service">
                         <img src="./images/tecnico.svg" alt="Técnico">
                         <h2>Técnico</h2>
-                        <p>Soporte y mantenimiento para tus equipos tecnológicos.</p>
+                        <p>Adquisión de habilidades practicas.</p>
                     </div>
                 </div>
             </section>

@@ -9,7 +9,6 @@
 
 </head>
 <body>
-    <!-- Navbar -->
     <nav>
         <div class="welcome">Bienvenido/a Joven Visionario</div>
         <form action="./php/logout.php" method="POST">
